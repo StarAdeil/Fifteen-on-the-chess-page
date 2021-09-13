@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+/*ALL*/
+body{
+	margin:0px;
+	padding: 0px;
+	background-image: url(../img/bg.png);
+	background-repeat: repeat-x;
+}
+header{
+	background-image: url(../img/header.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 900px;
+	height: 80px;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 20px;
+}
+.wrapper{
+	width: 900px;
+	margin:auto;
+}
+/*TOP BAR AND ICONE*/
+.topbar{
+	height: 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.iconeList{
+	width: 400px;
+	height: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.icone{
+	width: 70px;
+	height: 70px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.icone:nth-of-type(1){
+	background-image:url(../img/rss.png);
+	
+}
+.icone:nth-of-type(2){
+	background-image:url(../img/facebook.png);
+	
+}
+.icone:nth-of-type(3){
+	background-image:url(../img/twitter.png);
+	
+}
+.icone:nth-of-type(4){
+	background-image:url(../img/myspace.png);
+	
+}
+.icone:nth-of-type(5){
+	background-image:url(../img/gmail.png);
+	
+}
+
+.logo{
+	width: 300px;
+	height: 60px;
+	background-image: url(../img/templatemo_logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.headerText{
+	color:#5f6675;
+	font-size: 1.3em;
+}
+/*ASIDE*/
+.aside{
+	width: 260px;
+	height: 275px;
+}
+.aside ul{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 20px;
+	text-align: left;
+
+}
+.aside li{
+	margin:0px;
+	margin-bottom: 20px;
+	list-style-type: none;
+	border-bottom: 1px solid gray;
+}
+.aside a{
+	color:white;
+	font-size: 1.4em;
+	text-decoration: none;
+	margin-left: 20px;
+}
+.aside li a:hover{
+	color:gray;
+	transition:1s;
+}
+/*TITLE H1*/
+.title{
+	height: 235px;
+	width: 650px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-direction: column;
+}
+.title span{
+	font-size: 2em;
+	font-weight: bold;
+}
+h1{
+	color:white;
+	font-size: 2.5em;
+	margin-bottom: 5px;
+}
+/*SECTION ARTICLE*/
+section:nth-of-type(1){
+	display: flex;
+	flex-direction: row;
+	background-image: url(../img/templatemo_banner.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 900px;
+}
+section:nth-of-type(2){
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-image: url(../img/templatemo_content.png);
+	background-repeat: repeat-y;
+	background-size: 900px;
+	margin-top: 0px;
+}
+.empty{
+	background-image: url(../img/tempatemo_content_top.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 900px;
+	height: 37px;
+}
+section:nth-of-type(2) div{
+	width:230px;
+	height:150px;
+	padding: 20px;
+}
+section div img{
+	float:left;
+}
+h2{
+	color:white;
+}
+.optimization{
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+article{
+	background-image: url(../img/templatemo_content.png);
+	background-repeat: repeat-y;
+	background-size: 900px;
+	padding: 20px;
+}
+article {
+	display: flex;
+	flex-direction: row;
+	text-align: justify;
+}
+article .content{
+ padding: 20px;
+}
+/*FORM*/
+.fifteenGame{
+	width: 400px;
+	display: inline-block;
+}
+.fifteenGame input{
+	width: 80px;
+	height: 80px;
+}
+#empty{
+	opacity: 0;
+}
+.fifteenGame{
+	border-radius: 3px;
+	text-align: center;
+	padding: 20px 20px;
+	background-image: url(../img/wood.jpg);
+}
+.fifteenGame form{
+	background-image: url(../img/woodblack.jpg);
+	border-radius: 6px;
+}
+.fifteenGame input{
+	background-image: url(../img/metal.png);
+	background-size: cover;
+	margin-bottom: 2px;
+	opacity: 0.9;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.8em; 
+}
+.fifteenGame input:hover:not(#empty){
+	background-image: url(../img/metal2.png);
+	background-size: cover;
+	color:red;
+	transition: 1s;
+	cursor:pointer;
+}
+.theEnd{
+	background-image: url(../img/end.png);
+	background-position: center;
+	background-size: 900px;
+	background-repeat: no-repeat;
+	height: 18px;
+}
+footer{
+	text-align: center;
+	padding: 20px;
+}
